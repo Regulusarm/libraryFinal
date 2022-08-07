@@ -17,7 +17,11 @@ export const App = () => (
            <Content />
           </Main>
         } />
-        <Route path="/basket"  element={ <Main><Basket /></Main>} />
+        <Route path="/basket"  element={ 
+          <Main>
+            <Basket />
+          </Main>
+        } />
       </Routes>
     </ChakraProvider>
 )
