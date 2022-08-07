@@ -5,6 +5,6 @@ import './search.css'
 export default function Search(props: { onChange: (value: string) => void }) {
  return(
   <Box>
-    <Input placeholder='Поиск' size='md' onChange={(e: React.FormEvent<HTMLInputElement>) => props.onChange(e.currentTarget.value)} />
+    <Input placeholder='Поиск' borderColor='gray.500' size='md' onChange={(e: React.FormEvent<HTMLInputElement>) => props.onChange(e.currentTarget.value)} />
   </Box> ) 
 }
